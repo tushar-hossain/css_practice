@@ -1,0 +1,14 @@
+.p1{
+    border: 2px solid red;
+    width: 500px;
+}
+.p2{
+    border: 2px solid red;
+    max-width: 500px;
+}
+p{
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    overflow: scroll;
+}

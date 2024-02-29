@@ -1,0 +1,16 @@
+ul{
+    list-style: none;
+    line-height: 20px;
+    /* list-style-image: url(star.png); */
+    background-color: red;
+    display: flex;
+}
+ul li{
+    padding: 20px;
+    margin-left: 20px;
+    color: white;
+}
+ul li:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,11 @@
+p:nth-child(4){
+    color: red;
+}
+.child::first-letter{
+    color: red;
+    font-size: 50px;
+}
+.child::first-line{
+    color: tomato;
+    font-size: 20px;
+}

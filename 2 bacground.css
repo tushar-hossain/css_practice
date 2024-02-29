@@ -1,0 +1,11 @@
+h1{
+    background-color: red;
+    color: white;
+}
+/* body{
+    background-image: url(office.png);
+    background-repeat: no-repeat;
+} */
+body{
+    background: url(office.png) no-repeat;
+}

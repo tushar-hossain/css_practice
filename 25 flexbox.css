@@ -1,0 +1,16 @@
+.flexbox{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse;
+    flex-direction: row-reverse; */
+    /* flex-flow: row; */
+    justify-content: center;
+    
+}
+.flexbox > div{
+    background-color: tomato;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+} 

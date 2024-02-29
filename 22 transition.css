@@ -1,0 +1,17 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    margin: 100px auto;
+    transition: cubic-bezier(.17,.67,.83,.67);
+}
+.box:hover{
+    border-radius: 100%;
+    transition-property: inherit;
+    transition-duration: 4s;
+    transform: rotate(360deg);
+    /* transition-delay: 1s; */
+    transform-style: inherit;
+    
+
+}

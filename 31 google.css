@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+section header ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+section header ul li a{
+    text-decoration: none;
+    color: #111;
+    cursor: pointer;
+}
+section header ul li img{
+    width: 18px;
+}
+section header ul li button{
+    background-color: #4584ef;
+    border-radius: 3px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

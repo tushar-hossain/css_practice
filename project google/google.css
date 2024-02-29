@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+section{
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+section header{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+section header ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    justify-content: flex-end;
+}
+
+section header ul img{
+    width: 25px;
+}
+section header ul img:hover{
+    background-color: #969696;
+    transform: scale();
+    border-radius: 100%; 
+}
+
+section header ul li{
+    margin-right: 20px;
+    padding-right: 5px;       
+}
+section header ul li a{
+    text-decoration: none;
+    color: #111;
+}
+section header ul li button{
+    background-color: #4584fe;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #111;
+}
+section header ul li button:hover{
+    background-color: #5a8bee;
+    color: white;
+}
+
+/* Logo start */
+.g{
+    color: #4285F4;
+    font-size: 70px;
+    font-weight: 480;
+    position: absolute;
+    top: 50px;
+    left: 367px;
+}
+.o{
+    color: #DB4437;
+    font-size: 45px;
+    font-weight: 480;
+    position: absolute;
+    top: 74px;
+    left: 412px;
+}
+.o1{
+    color: #F4B400;
+    font-size: 45px;
+    font-weight: 480;
+    position: absolute;
+    top: 74px;
+    left: 439px;
+}
+.g1{
+    color: #4285F4;
+    font-size: 45px;
+    font-weight: 480;
+    position: absolute;
+    top: 74px;
+    left: 465px;
+}
+.l{
+    color: #0F9D58;
+    font-size: 45px;
+    font-weight: 480;
+    position: absolute;
+    top: 74px;
+    left: 488px;
+}
+.e{
+    color: #DB4437;
+    font-size: 45px;
+    font-weight: 480;
+    transform: rotate(45,deg);
+    position: absolute;
+    top: 74px;
+    left: 497px;
+}
+.searchbar{
+    width: 467px;
+    height: 22px;
+    position: absolute;    
+    top: 148px;
+    left: 221px;
+    padding: 10px;
+    border-radius: 100px;
+    font-size: 20px;  
+    border: 1px solid #c0bfbf;
+    padding-left: 20px;
+    outline: none;    
+}
+.searchbar:hover{
+    box-shadow: 1px 1px .5px rgb(192, 191, 191),
+    -1px -1px .5px rgb(192, 191, 191);
+    outline: none;
+}

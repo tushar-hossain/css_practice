@@ -1,0 +1,17 @@
+.box{
+    width: 84px;
+    height: 84px;
+    background: url(sprite.png) no-repeat;
+    background-position: 0 -84px;
+    margin: 100px auto;
+    border-radius: 100%;
+}
+.box:hover{
+    width: 84px;
+    height: 84px;
+    background: url(sprite.png) no-repeat;
+    background-position: -168px -168px;
+    margin: 100px auto;
+    border-radius: 100%;
+    transition: 4s;
+}

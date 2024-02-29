@@ -1,0 +1,21 @@
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 100px auto;
+    position: relative;
+}
+.box:hover{
+    opacity: 0.5;
+}
+.box p{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top:40%;
+    color: white;    
+}
+.box p:hover{
+    opacity: 0.5;
+}

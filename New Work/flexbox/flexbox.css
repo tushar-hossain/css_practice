@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    /* align-items: flex-end; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+}
+.container div{
+    background-color: #d2691e;
+    /* margin: 10px; */
+    padding-left: 10px 10px 0;
+    /* flex-basis: 2%; */
+
+}
+.container div:nth-child(odd){
+    background-color: #1ed278;
+}
+.child1{
+    
+}
+.child2{
+    
+}
+.child3{
+
+}
+

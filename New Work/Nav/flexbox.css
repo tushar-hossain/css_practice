@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container div{
+    padding: 5px 5px 0;
+    flex-basis: 30%;
+    margin-left: 3px;
+}
+
+.child1{
+    text-align: justify;
+    background-color: rebeccapurple;
+    color: white;
+    flex: 10;
+}
+.child2{
+    text-align: justify;
+    background-color: rgb(235, 94, 0);
+    color: white;
+    flex: 1;
+}
+.child3{
+    text-align: justify;
+    background-color: rgb(66, 53, 240);
+    color: white;
+    flex: 1;
+}
+.child4{
+    text-align: justify;
+    background-color: rgb(146, 37, 255);
+    color: white;
+}
+@media only screen and (min-width: 200px) and (max-width:767px) {
+    .container{
+        flex-direction: column; 
+    }
+}

@@ -1,0 +1,33 @@
+.scrool{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-color: aqua red black tomato;
+    overflow: scroll;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.text{
+    text-align: justify;
+}
+a{
+    text-decoration: none; 
+    /* text-decoration: dotted; */
+    /* text-decoration: double; */
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+    /* text-transform: capitalize;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    line-height: 1.3em; */
+    font-variant: small-caps;
+}
+.float img{
+    width: 300px;
+    float: left;
+    opacity: 0.5; filter: (opacity(50));
+}
+p{
+    clear: left;
+}

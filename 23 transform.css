@@ -1,0 +1,17 @@
+.box{
+   width: 200px;
+   height: 200px;
+   background-color: tomato;
+   margin: 100px auto; 
+   transform:rotate(45deg);
+   /* transform:rotate(-45deg); */
+   /* transform:scale(.5); */
+   /* transform:scaleX(.5);  */
+   /* transform: rotateY(-45deg); */
+}
+.box:hover{
+    width: 100px;
+    transition: ease-in 1s;
+    
+
+}

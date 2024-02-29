@@ -1,0 +1,61 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    animation-name: box;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    /* animation-fill-mode: backwards; */
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timeline:inherit;
+    animation-delay: 2s;
+    margin: 100px auto;
+}
+@keyframes box{
+    0%{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    position: relative;
+    top: 0px;
+    }
+    25%{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(190, 32, 5);
+    border-radius: 100%;
+    position: relative;
+    left: 50px;
+    }
+    50%{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(56, 13, 6);
+    border-radius: 100%;
+    position: relative;
+    right: 50px;
+    }
+    75%{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(49, 215, 3);
+        border-radius: 100%;
+        position: relative;
+        left: 100px;
+    }
+    80%{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(49, 215, 3);
+        border-radius: 100%;
+        position: relative;
+        right: 150px;
+    }
+    100%{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(168, 7, 208);
+    transform: rotate(360deg);
+    }
+}

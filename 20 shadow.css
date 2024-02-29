@@ -1,0 +1,21 @@
+/* p{
+    font-size: 30px;
+    text-shadow: -5px 5px 4px;
+    font-weight: 800;
+} */
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+    margin: 100px auto;
+    box-shadow: 5px 5px 15px, -5px 5px 15px;
+}
+.up{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-shadow: 2px 5px 3px;
+}

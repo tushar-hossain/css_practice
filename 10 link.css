@@ -1,0 +1,18 @@
+.google{
+    font-size: 30px;
+    text-decoration: none;
+    background-color: black;
+    color: red;
+}
+.google:hover{
+    background-color: blue;
+    color: tomato;
+}
+.google:active{
+    background-color: aqua;
+    color: brown;
+}
+/* .google:visited{
+    background-color: chartreuse;
+    color: coral;
+} */

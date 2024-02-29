@@ -1,0 +1,13 @@
+img{
+    width: 200px;
+    float: left;
+}
+.filters{
+    filter: blur(2px);    
+}
+.brightness{
+    filter: brightness(150%);    
+}
+.opacity{
+    filter: opacity(.5);
+}

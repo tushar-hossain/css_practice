@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+
+header{
+    width: 100%;
+    background-color:tomato;
+    display: flex;
+}
+.navbar{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+.navbar ul{
+   list-style: none;
+
+}
+
+.navbar ul li{
+    /* background-color: crimson; */
+    width: 150px;
+    border: 1px solid white;
+    height: 60px;
+    text-align: center;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;    
+    line-height: 60px;
+    cursor: pointer;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.navbar ul li:hover{
+    background-color:coral;
+    transition: all ease-in 1s;
+}
+.navbar ul li > ul li{
+    display: none;
+}
+
+.navbar ul li:hover > ul li{
+    display: block;
+}

@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+section{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header li img{
+    width: 25px;
+    height: auto;
+}
+section header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section header ul{
+    width: 100%;  
+    position: absolute;
+    top: 0;
+    justify-content: flex-end;
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+section header ul li{    
+    margin-left: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+section header ul li a{
+    text-decoration: none;
+    color: #111;
+}
+section header ul li button{
+    background-color: #4584ef;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+}
+.google{
+    width: 100%;
+    position: relative;
+    top: -95px;
+}
+.icon img{
+    width: 20px;
+    height: auto;
+}
+.logo{
+    width: 300px;
+    height: auto;
+}
+
+.search1{
+    width: 100%;
+}
+
+.search input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    outline: 1px solid #c0bebe;
+    padding-left: 70px;
+}
+.icon{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    top: 233px;
+}

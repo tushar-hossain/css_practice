@@ -1,0 +1,28 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+/* small scree work 580px background color */
+/* @media screen and (max-width: 580px) {
+    .box{
+        
+        background-color: #00a2ff;
+    }
+} */
+
+/* big screen work background color 
+and 768px smll screen work background color red */
+@media screen and (min-width: 768px) {
+    .box{
+        
+        background-color: #00a2ff;
+    }
+} 
+/* 580px to 776px work background color */
+/* @media screen and (min-width: 580px) and (max-width: 776px) {
+    .box{
+        
+        background-color: #00a2ff;
+    }
+} */

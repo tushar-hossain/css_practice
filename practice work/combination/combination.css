@@ -1,0 +1,18 @@
+/* all p tag color for div */
+/* div p{
+    background-color: red;
+} */
+
+/* just div p tag color. not span p tag color */
+/* div > p{
+    background-color: red;
+} */
+
+/* div + after p tag color not span tag color and last p tag not color */
+/* div + p{
+    background-color: red;
+} */
+/* div after all p tag color */
+div ~ p{
+    background-color: red;
+}
